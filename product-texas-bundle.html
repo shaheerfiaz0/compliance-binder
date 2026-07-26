@@ -85,7 +85,7 @@
   .tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;}
   .tab{background:var(--card);padding:22px 18px;}
   .tab .idx{font-family:'IBM Plex Mono',monospace;font-size:.68rem;color:var(--gold);letter-spacing:.08em;margin-bottom:10px;display:block;}
-  .tab h4{font-family:'Fraunces',serif;font-size:1rem;margin:0 0 8px;}
+  .tab h3{font-family:'Fraunces',serif;font-size:1rem;margin:0 0 8px;}
   .tab p{font-size:.84rem;color:var(--ink-soft);margin:0;}
   .tab ul{margin:8px 0 0;padding-left:16px;font-size:.8rem;color:var(--ink-soft);}
   .tab li{margin-bottom:4px;}
@@ -103,7 +103,7 @@
 
   .faq{border-top:1px solid var(--line);}
   .faq-item{border-bottom:1px solid var(--line);padding:20px 0;}
-  .faq-item h4{font-family:'Fraunces',serif;font-size:1.05rem;margin:0 0 8px;}
+  .faq-item h3{font-family:'Fraunces',serif;font-size:1.05rem;margin:0 0 8px;}
   .faq-item p{margin:0;color:var(--ink-soft);font-size:.94rem;}
 
   .final-cta{background:var(--pine);color:#fff;border-radius:10px;padding:48px;text-align:center;}
@@ -129,19 +129,13 @@
   }
   @media (prefers-reduced-motion:reduce){*{transition:none !important;}}
 </style>
-<!-- ============================================================
-     ANALYTICS PLACEHOLDER
-     Replace G-XXXXXXXXXX with your real GA4 Measurement ID
-     (Google Analytics > Admin > Data Streams > your stream).
-     Prefer Plausible or another tool instead? Delete this whole
-     block and paste your provider's snippet here instead.
-     ============================================================ -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<!-- Google Analytics (GA4) — configured, ID: G-G74CLKJJ0H -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G74CLKJJ0H"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX');
+  gtag('config', 'G-G74CLKJJ0H');
 </script>
 <script type="application/ld+json">
 {
@@ -160,6 +154,7 @@
   }
 }
 </script>
+<!-- Microsoft Clarity — configured, project ID: xshdyd2598 -->
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -225,23 +220,23 @@
       </div>
       <div class="tabs">
         <div class="tab">
-          <span class="idx">Tab A</span><h4>Parent Handbook</h4>
+          <span class="idx">Tab A</span><h3>Parent Handbook</h3>
           <ul><li>Enrollment &amp; fees</li><li>Health &amp; illness policy</li><li>Discipline policy</li><li>Termination policy</li></ul>
         </div>
         <div class="tab">
-          <span class="idx">Tab B</span><h4>Health &amp; Safety Manual</h4>
+          <span class="idx">Tab B</span><h3>Health &amp; Safety Manual</h3>
           <ul><li>Daily health checks</li><li>Illness exclusion (§746.3601)</li><li>Medication administration</li><li>Sanitation protocols</li></ul>
         </div>
         <div class="tab">
-          <span class="idx">Tab C</span><h4>Emergency Action Plan</h4>
+          <span class="idx">Tab C</span><h3>Emergency Action Plan</h3>
           <ul><li>Fire evacuation</li><li>Severe weather</li><li>Lockdown procedure</li><li>Missing child protocol</li></ul>
         </div>
         <div class="tab">
-          <span class="idx">Tab D</span><h4>Staff Policies</h4>
+          <span class="idx">Tab D</span><h3>Staff Policies</h3>
           <ul><li>Code of conduct</li><li>Background checks</li><li>Ratios &amp; supervision</li><li>Mandatory reporting</li></ul>
         </div>
         <div class="tab">
-          <span class="idx">Tab E</span><h4>Required Forms</h4>
+          <span class="idx">Tab E</span><h3>Required Forms</h3>
           <ul><li>Enrollment / intake</li><li>Emergency contact</li><li>Incident report</li><li>Sign-in / sign-out log</li></ul>
         </div>
       </div>
@@ -292,19 +287,19 @@
       </div>
       <div class="faq">
         <div class="faq-item">
-          <h4>Do I still need a lawyer or licensing consultant?</h4>
+          <h3>Do I still need a lawyer or licensing consultant?</h3>
           <p>Yes, for anything you're submitting to HHSC or relying on for a real inspection. This bundle gets you a sourced, professional starting point — not a substitute for a final review by someone licensed in Texas.</p>
         </div>
         <div class="faq-item">
-          <h4>What if I'm not in Texas?</h4>
+          <h3>What if I'm not in Texas?</h3>
           <p>This edition is built specifically for Texas requirements. We're building additional state editions — check the guides page for what's live.</p>
         </div>
         <div class="faq-item">
-          <h4>What format do I get?</h4>
+          <h3>What format do I get?</h3>
           <p>A single editable Microsoft Word (.docx) file with all five sections and four forms, plus the sourcing appendix.</p>
         </div>
         <div class="faq-item">
-          <h4>What happens if Texas changes a regulation?</h4>
+          <h3>What happens if Texas changes a regulation?</h3>
           <p>You'll get a free updated version if the sections we've sourced change materially. We date every version on the cover page so you always know what you're looking at.</p>
         </div>
       </div>
@@ -336,15 +331,6 @@
     <p class="copyright">© 2026 Compliance Binder. Not affiliated with HHSC, DFPS, or any state licensing agency.</p>
   </div>
 </footer>
-
-<script>
-  document.getElementById('buyBtn').addEventListener('click', function(e){
-    if(this.href.indexOf('YOUR-GUMROAD-CHECKOUT-LINK-HERE') !== -1){
-      e.preventDefault();
-      alert('Checkout not connected yet. Create the product on Gumroad (or Lemon Squeezy), then replace this button\'s href with the real checkout URL.');
-    }
-  });
-</script>
 
 </body>
 </html>
