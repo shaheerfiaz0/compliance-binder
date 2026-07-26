@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /legal.html
-
+Disallow: /compliance-binder/legal.html
 Sitemap: https://shaheerfiaz0.github.io/compliance-binder/sitemap.xml
