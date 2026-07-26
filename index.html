@@ -166,7 +166,7 @@
   .tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;}
   .tab{background:var(--card);padding:22px 18px;}
   .tab .idx{font-family:'IBM Plex Mono',monospace;font-size:.68rem;color:var(--gold);letter-spacing:.08em;margin-bottom:10px;display:block;}
-  .tab h4{font-family:'Fraunces',serif;font-size:1rem;margin:0 0 8px;color:var(--ink);}
+  .tab h3{font-family:'Fraunces',serif;font-size:1rem;margin:0 0 8px;color:var(--ink);}
   .tab p{font-size:.84rem;color:var(--ink-soft);margin:0;}
 
   /* featured guide + product */
@@ -227,13 +227,8 @@
     *{transition:none !important;}
   }
 </style>
-<!-- ============================================================
-     ANALYTICS PLACEHOLDER
-     Replace G-XXXXXXXXXX with your real GA4 Measurement ID
-     (Google Analytics > Admin > Data Streams > your stream).
-     Prefer Plausible or another tool instead? Delete this whole
-     block and paste your provider's snippet here instead.
-     ============================================================ -->
+
+<!-- Google Analytics (GA4) — configured, ID: G-G74CLKJJ0H -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G74CLKJJ0H"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -243,12 +238,33 @@
 </script>
 
 <meta name="google-site-verification" content="GrbguyxHEQT5y0c5BqRFd20gtv4iPpmzRYWXSE5x4Ig" />
+
+<!-- Microsoft Clarity — configured, project ID: xshdyd2598 -->
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "xshdyd2598");
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Compliance Binder",
+  "url": "https://shaheerfiaz0.github.io/compliance-binder/index.html",
+  "logo": "https://shaheerfiaz0.github.io/compliance-binder/assets/cover-site.png",
+  "description": "Childcare licensing guides and compliance template bundles, built from the actual state regulations."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Compliance Binder",
+  "url": "https://shaheerfiaz0.github.io/compliance-binder/index.html"
+}
 </script>
 </head>
 
@@ -340,11 +356,11 @@
         <p>Five tabs, built like the binder an HHSC inspector actually wants to see.</p>
       </div>
       <div class="tabs">
-        <div class="tab"><span class="idx">Tab A</span><h4>Parent Handbook</h4><p>Enrollment, fees, health policy, discipline, communication.</p></div>
-        <div class="tab"><span class="idx">Tab B</span><h4>Health &amp; Safety</h4><p>Daily checks, illness exclusion, medication, sanitation.</p></div>
-        <div class="tab"><span class="idx">Tab C</span><h4>Emergency Plan</h4><p>Fire, severe weather, lockdown, missing-child protocol.</p></div>
-        <div class="tab"><span class="idx">Tab D</span><h4>Staff Policies</h4><p>Conduct, background checks, ratios, mandatory reporting.</p></div>
-        <div class="tab"><span class="idx">Tab E</span><h4>Required Forms</h4><p>Intake, emergency contact, incident report, sign-in log.</p></div>
+        <div class="tab"><span class="idx">Tab A</span><h3>Parent Handbook</h3><p>Enrollment, fees, health policy, discipline, communication.</p></div>
+        <div class="tab"><span class="idx">Tab B</span><h3>Health &amp; Safety</h3><p>Daily checks, illness exclusion, medication, sanitation.</p></div>
+        <div class="tab"><span class="idx">Tab C</span><h3>Emergency Plan</h3><p>Fire, severe weather, lockdown, missing-child protocol.</p></div>
+        <div class="tab"><span class="idx">Tab D</span><h3>Staff Policies</h3><p>Conduct, background checks, ratios, mandatory reporting.</p></div>
+        <div class="tab"><span class="idx">Tab E</span><h3>Required Forms</h3><p>Intake, emergency contact, incident report, sign-in log.</p></div>
       </div>
     </div>
   </section>
@@ -431,16 +447,6 @@
     <p class="copyright">© 2026 Compliance Binder. Not affiliated with HHSC, DFPS, or any state licensing agency.</p>
   </div>
 </footer>
-
-<script>
-  document.getElementById('voteForm').addEventListener('submit', function(e){
-    var action = this.action;
-    if(action.indexOf('mbdnpnzy') !== -1){
-      e.preventDefault();
-      alert('Form backend not connected yet. Sign up at formspree.io (or your preferred form/email tool), replace YOUR_FORM_ID in this page\'s HTML with your real endpoint, then this will work live.');
-    }
-  });
-</script>
 
 </body>
 </html>
