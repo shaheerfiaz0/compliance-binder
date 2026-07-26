@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /legal.html
 
-Sitemap: https://www.compliancebinder.com/sitemap.xml
+Sitemap: https://shaheerfiaz0.github.io/compliance-binder/sitemap.xml

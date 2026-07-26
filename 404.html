@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found — Compliance Binder</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="shortcut icon" href="assets/favicon.ico">
+<meta name="theme-color" content="#2F4A34">
+
+<!-- ============================================================
+     ANALYTICS PLACEHOLDER
+     Replace G-XXXXXXXXXX with your real GA4 Measurement ID
+     (Google Analytics > Admin > Data Streams > your stream).
+     Tracking 404s is genuinely useful — it reveals broken links.
+     ============================================================ -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F1F4EB; --card:#FBFAF4; --ink:#20301F; --ink-soft:#41503E;
+    --pine:#2F4A34; --pine-dark:#213629; --gold:#B98A2E; --stamp:#A63A24; --line:#DBD6C4;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans',sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;min-height:100vh;display:flex;flex-direction:column;}
+  h1{font-family:'Fraunces',serif;color:var(--ink);font-weight:600;}
+  a{color:var(--pine);}
+  .wrap{max-width:640px;margin:auto;padding:80px 28px;text-align:center;}
+  .brand{display:inline-flex;align-items:center;gap:10px;font-family:'Fraunces',serif;font-weight:600;font-size:1.15rem;text-decoration:none;color:var(--ink);margin-bottom:56px;}
+  .brand .mark{width:30px;height:30px;border:1.5px solid var(--ink);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'IBM Plex Mono',monospace;font-size:.62rem;font-weight:600;transform:rotate(-8deg);color:var(--pine);}
+  .stamp{border:2px solid var(--stamp);color:var(--stamp);border-radius:8px;padding:10px 20px;display:inline-block;transform:rotate(-3deg);font-family:'IBM Plex Mono',monospace;font-size:.8rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:28px;background:rgba(166,58,36,0.03);}
+  h1{font-size:2rem;margin:0 0 14px;}
+  p{color:var(--ink-soft);font-size:1.02rem;max-width:44ch;margin:0 auto 36px;}
+  .links{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;}
+  .btn{display:inline-flex;align-items:center;gap:8px;background:var(--pine);color:#fff;text-decoration:none;padding:12px 22px;border-radius:2px;font-weight:600;font-size:.92rem;border:1px solid var(--pine);}
+  .btn:hover{background:var(--pine-dark);}
+  .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink);}
+  .btn.ghost:hover{background:var(--ink);color:#fff;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="brand" href="./index.html"><span class="mark">CB</span> Compliance Binder</a>
+    <span class="stamp">Not on file — §404</span>
+    <h1>We couldn't find that page.</h1>
+    <p>The page you're looking for may have moved, or the link might be out of date. Here's where you probably meant to go:</p>
+    <div class="links">
+      <a class="btn" href="./index.html">Homepage</a>
+      <a class="btn ghost" href="./guides/texas-daycare-licensing-requirements.html">Texas Guide</a>
+      <a class="btn ghost" href="./guides/daycare-parent-handbook-checklist.html">Free Checklist</a>
+    </div>
+  </div>
+</body>
+</html>
